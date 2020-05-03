@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:orderInCategory="100"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/accepted"
+        android:icon="@drawable/ic_check"
+        android:title="Accepted profiles"
+        android:orderInCategory="200"
+        android:visible="true"
+        />
+
+    <item
+        android:id="@+id/declined"
+        android:icon="@drawable/ic_rejected"
+        android:title="Declined profiles"
+        android:orderInCategory="300"
+        android:visible="true"
+        />
+
+</menu>
